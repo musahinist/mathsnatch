@@ -1,0 +1,11 @@
+//REST API PLUGIN
+// AUTH
+@baseUrl= http://mathsnatch.herokuapp.com/api 
+@contentType= application/json
+
+
+## LOGIN
+# @name login
+GET {{baseUrl}}/auth/guest HTTP/1.1
+
+

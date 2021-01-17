@@ -1,0 +1,13 @@
+@localhost = http://localhost:3000
+@heroku = mathsnatch.herokuapp.com
+
+@user_id = 5fccbf985830a400040dd1cf
+# login user and delete guest account   /api/auth/:user_id
+POST {{heroku}}/api/auth/{{user_id}}
+content-type: application/json
+accept: application/json
+
+{
+  "email": "musamusa@gmail.com",
+  "password": "123456"
+}
